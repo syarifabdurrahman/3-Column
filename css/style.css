@@ -1,0 +1,103 @@
+ body{  
+     font-size: 15px;
+     margin: 2% 20%;
+ } 
+ 
+/* Card */
+
+.card{
+     text-align: left;
+     line-height: 1.3;
+     color: white;
+}
+
+.card-1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card-2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.title-img{
+   padding: 20px 30px 10px;
+}
+
+.info-title{
+    font-family: 'Big Shoulders Display',
+    cursive;
+    font-weight: bold;
+    font-size: 45px;
+     padding: 20px 30px 3px;
+}
+
+p{
+    font-family: 'Lexend Deca',
+    sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 20px 30px 25px;
+}
+
+.btn{
+    margin: 0 0 16%;
+}
+
+.btn-1{
+     margin-top: 15%;
+}
+
+.btn-2{
+    margin-top: 15%;
+}
+
+.btn-3{
+margin-top: 15%;
+}
+
+span{
+    font-weight: 500;
+}
+
+.txt-1{
+    color:hsl(31, 77%, 52%);
+}
+
+.txt-2{
+    color: hsl(184, 100%, 22%);
+}
+
+.txt-3{
+    color: hsl(179, 100%, 13%);
+}
+
+ .attribution {
+     font-size: 11px;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+
+ @media(max-width:982px){
+     .card-1{
+         border-radius: 0;
+     }
+
+     .card-2{
+         border-radius: 0;
+     }
+
+     .card-3{
+         border-radius: 0;
+     }
+ }
